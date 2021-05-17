@@ -1,0 +1,41 @@
+{
+    "name": "the-better-lives",
+    "version": "1.0.0",
+    "description": "The Better Lives theme packages",
+    "main": "index.js",
+    "scripts": {
+        "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+        "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
+        "clean": "rm -rf build/*"
+    },
+    "keywords": [
+        "wordpress",
+        "themes"
+    ],
+    "author": "Appsnite",
+    "license": "ISC",
+    "private": true,
+    "browserslist": [
+        "defaults"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.14.2",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "cross-env": "^7.0.3",
+        "css-loader": "^5.2.4",
+        "cssnano": "^5.0.2",
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^1.6.0",
+        "node-sass": "^6.0.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.4",
+        "sass-loader": "^11.1.1",
+        "sass-mq": "^5.0.1",
+        "style-loader": "^2.0.0",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^5.37.0",
+        "webpack-cli": "^4.7.0"
+    }
+}
